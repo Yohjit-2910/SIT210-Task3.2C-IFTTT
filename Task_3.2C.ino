@@ -55,6 +55,7 @@ void loop() {
   if(sunlight > 600)
   {
     message = "Sunlight is there. NO darkness";
+    // light_intensity = test;
     delay(1000);
   }
   if(sunlight < 600)
