@@ -73,13 +73,6 @@ void loop() {
 void onLightIntensityChange()  {
   // Add your code here to act upon LightIntensity change
 }
-/*
-  Since Present is READ_WRITE variable, onPresentChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
-void onPresentChange()  {
-  // Add your code here to act upon Present change
-}
 
 /*
   Since Message is READ_WRITE variable, onMessageChange() is
